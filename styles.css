@@ -1,0 +1,19 @@
+body {
+    margin: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70px;
+    background-color: black;
+}
+
+
+.container > .links a {
+    text-decoration: none;
+    color: white;
+    font-size: larger;
+    padding-left: 30px;
+}
